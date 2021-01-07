@@ -23,11 +23,10 @@ const letterPositions = function(sentence) {
   for (let i = 0; i < sentence.length; i++) {
     if (sentence[i] !== " ") { // the !== makes so much sense...
       if (results[sentence[i]]) {
-        results[sentence[i]].push(i);
+        results[sentence[i]].push(i); // add current i value to index
       } else {
-        results[sentence[i]] = [i] // create 
+        results[sentence[i]] = [i] // create 0 index
       }
-
     }
   }
   return results;
