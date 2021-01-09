@@ -40,5 +40,5 @@ console.log(map(arr, num => num * 2));
 console.log(map(words, word => word[0]));
 // console.log(results1);
 
-assertArraysEqual(map(arr, num => num *2), [ 2, 6, 10, 14, 18 ])
-assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ])
+assertArraysEqual(map(arr, num => num * 2), [ 2, 6, 10, 14, 18 ]);
+assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
