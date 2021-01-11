@@ -35,6 +35,10 @@ let test1 = {
   "Akelarre":  { stars: 3 }
 }
 
+console.log(test1.noma);
+test1["name"] = { stars: 4 };
+console.log(test1);
+
 // console.log(findKey(test1, x => x.stars === 2)); // => "noma"
 console.log(assertEqual(findKey(test1, x => x.stars === 2), "noma"));
 

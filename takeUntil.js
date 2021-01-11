@@ -49,3 +49,23 @@ console.log(assertArraysEqual(results1, [ 1, 2, 5, 7, 2 ]));
 // [ 1, 2, 5, 7, 2 ]
 // ---
 // [ 'I\'ve', 'been', 'to', 'Hollywood' ]
+
+
+// STRANGE stuff here! OpenAI made some code: ************
+
+// var range = [1, 2, 3, 4, 5, 6];
+// var searchQuery = {};
+// function findKeyByValue(query) { 
+//   range.find(query); 
+// } 
+// function getKeyByValue(query) { // Return current value found on range on completion 
+// return searchQuery.get(query); 
+// } 
+// var range = [1, 2, 3, 4, 5, 6];
+// var searchQuery = {};
+// function findKeyByValue(query) {
+//   range.find(query);
+// } 
+// function getKeyByValue(query) { // Return current value found on range on completion 
+//   return searchQuery.get(query); 
+// }
