@@ -5,7 +5,9 @@ const tail = function(arr) {
   let newArr = [];
   newArr = arr.slice(1);
   // return console.log(newArr.slice(1));
-  return console.log(newArr);
+  return newArr;
 };
 
 module.exports = tail;
+
+// console.log(tail([1, 2, 3]));
