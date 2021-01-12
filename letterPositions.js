@@ -32,7 +32,9 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-console.log(letterPositions("lighthouse in the house"));
-console.log(letterPositions("this is a thing"));
+// console.log(letterPositions("lighthouse in the house"));
+// console.log(letterPositions("this is a thing"));
 
-assertArraysEqual(letterPositions("hello").e, [1]);
+// assertArraysEqual(letterPositions("hello").e, [1]);
+
+module.exports = letterPositions;

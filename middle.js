@@ -11,13 +11,13 @@ const middle = function(arr) {
       midIndex.splice(0, 0, arr[x], arr[y]);
       // console.log("First middle index: " + x);
       // console.log("Second middle index: " + y);
-      console.log(midIndex);
+      // console.log(midIndex);
 
       return midIndex;
     } else {
       let x = Math.floor(arr.length / 2) + 1;
       midIndex.push(x);
-      console.log(midIndex);
+      // console.log(midIndex);
       return midIndex;
     }
   }

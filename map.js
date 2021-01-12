@@ -18,7 +18,7 @@ const assertArraysEqual = function(arr1, arr2) {
   }
 };
 
-const words = ["ground", "control", "to", "major", "tom"];
+// const words = ["ground", "control", "to", "major", "tom"];
 
 const map = function(array, callback)  {
   // console.log('array: ', array);
@@ -33,12 +33,14 @@ const map = function(array, callback)  {
   return results;
 };
 
-const arr = [1, 3, 5, 7, 9];
-console.log(map(arr, num => num * 2));
+// const arr = [1, 3, 5, 7, 9];
+// console.log(map(arr, num => num * 2));
 
-// const results1 = map(words, word => word[0]);
-console.log(map(words, word => word[0]));
-// console.log(results1);
+// // const results1 = map(words, word => word[0]);
+// console.log(map(words, word => word[0]));
+// // console.log(results1);
 
-assertArraysEqual(map(arr, num => num * 2), [ 2, 6, 10, 14, 18 ]);
-assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
+// assertArraysEqual(map(arr, num => num * 2), [ 2, 6, 10, 14, 18 ]);
+// assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ]);
+
+module.exports = map;

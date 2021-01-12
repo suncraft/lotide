@@ -28,3 +28,5 @@ let ranString = "This chapter taught you how to write your own functions. The fu
 
 console.log(countLetters(ranString));
 console.log(countLetters("lighthouse in the house"));
+
+module.exports = countLetters;
