@@ -1,0 +1,33 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "Lighthouse labs lodash remake",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suncraft/lotide.git"
+  },
+  "keywords": [
+    "Lighthouse",
+    "Labs",
+    "lodash",
+    "remake",
+    "testing"
+  ],
+  "author": "suncraft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suncraft/lotide/issues"
+  },
+  "homepage": "https://github.com/suncraft/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
