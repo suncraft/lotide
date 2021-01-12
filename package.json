@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@suncraft/lotide",
   "version": "1.0.0",
-  "description": "Lighthouse labs lodash remake",
-  "main": "assertArraysEqual.js",
+  "description": "Lighthouse labs lodash remake by students.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
