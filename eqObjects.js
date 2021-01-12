@@ -40,23 +40,23 @@ const eqObjects = function(object1, object2) {
 };
 
 
-const ab = { a: "1", b: "2" };
-const ba = { b: "2", a: "1" };
-// console.log(eqObjects(ab, ba)); // => true
-// console.log(ab.isArray);
-// console.log(eqArrays(ab, ba));
-// assertEqual(ab, ba);
-// assertEqual(Object.keys(ab).length, Object.keys(ba).length);
+// const ab = { a: "1", b: "2" };
+// const ba = { b: "2", a: "1" };
+// // console.log(eqObjects(ab, ba)); // => true
+// // console.log(ab.isArray);
+// // console.log(eqArrays(ab, ba));
+// // assertEqual(ab, ba);
+// // assertEqual(Object.keys(ab).length, Object.keys(ba).length);
 
-const abc = { a: "1", b: "2", c: "3"};
-// console.log(eqObjects(ab, abc)); // => false
-// assertEqual(ab, abc);
+// const abc = { a: "1", b: "2", c: "3"};
+// // console.log(eqObjects(ab, abc)); // => false
+// // assertEqual(ab, abc);
 
-const cd = { c: "1", d: ["2", 3] };
-const dc = { d: ["2", 3], c: "1" };
-// assertEqual(eqObjects(cd, dc), true); // => true **how can this be true???** test case was from discord chat
+// const cd = { c: "1", d: ["2", 3] };
+// const dc = { d: ["2", 3], c: "1" };
+// // assertEqual(eqObjects(cd, dc), true); // => true **how can this be true???** test case was from discord chat
 
-const cd2 = { c: "1", d: ["2", 3, 4] };
-assertEqual(eqObjects(cd, cd2), false); // => false
+// const cd2 = { c: "1", d: ["2", 3, 4] };
+// assertEqual(eqObjects(cd, cd2), false); // => false
 
 module.exports = eqObjects;

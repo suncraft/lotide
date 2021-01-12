@@ -24,9 +24,9 @@ const countLetters = function(string) {
 };
 
 
-let ranString = "This chapter taught you how to write your own functions. The function keyword, when used as an expression, can create a function value. When used as a statement, it can be used to declare a binding and give it a function as its value. Arrow functions are yet another way to create functions.";
+// let ranString = "This chapter taught you how to write your own functions. The function keyword, when used as an expression, can create a function value. When used as a statement, it can be used to declare a binding and give it a function as its value. Arrow functions are yet another way to create functions.";
 
-console.log(countLetters(ranString));
-console.log(countLetters("lighthouse in the house"));
+// console.log(countLetters(ranString));
+// console.log(countLetters("lighthouse in the house"));
 
 module.exports = countLetters;
